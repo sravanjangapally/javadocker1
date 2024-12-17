@@ -5,6 +5,6 @@ WORKDIR /
 # Copy the current directory contents into the container at /app
 COPY . .
 # Compile the Java program
-RUN javac javadocker1
+RUN javac sample1
 # Command to run the program
-CMD ["java", "javadocker1"]
+CMD ["java", "sample1"]
